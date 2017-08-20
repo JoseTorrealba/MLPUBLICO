@@ -1,0 +1,60 @@
+@import url(../fonts/stagsans-light.otf);
+@import url(../fonts/forumfont-book.ttf);
+@import url(font-awesome.min.css);
+
+@font-face {
+    font-family: "stagsans-light";
+    src: url(../fonts/stagsans-light.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "forumfont-book";
+    src: url(../fonts/forumfont-book.ttf) format("truetype");
+}
+
+thead {
+	background: #074da3;
+	color: #fff;
+	font-family: "stagsans-light";
+}
+
+.even {
+	background: #dce3eb;
+}
+
+.even,
+.odd {
+	font-size: .9em;
+	font-family: "stagsans-light";
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dataTables_info {
+	font-family: "stagsans-light";
+}
+
+button {
+	padding: 1em 5em;
+}
+
+.short-item {
+	width: 1em!important;
+	text-align: center;
+}
+
+.fa .fa-search-plus .icon-table{
+	text-align: center;
+	margin: 0 auto;
+	
+}
+
+.align_center {
+	text-align: center!important;
+	
+}
+
+.align_right {
+	text-align: right!important;
+	
+}
